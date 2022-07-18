@@ -1,0 +1,112 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration:none;
+
+}
+body {
+    background-color: hsl(30, 38%, 92%)
+}
+
+.container {
+
+    width:80%;
+    height: 100vh;
+    margin:0 auto;
+    display:flex;
+    align-items:center;
+
+}
+
+.content {
+    width:61.5%;
+    height:80%;
+    margin:0 auto;
+    display:flex;
+    border-radius:12px;
+
+}
+
+.preview {
+    background-image:url('/images/image-product-desktop.jpg');
+    width:50%;
+    height:100%;
+    background-size:contain;
+    background-repeat: no-repeat;
+    border-radius:12px 0 0 12px;
+}
+
+
+
+.text {
+    width:50%;
+    padding:25px;
+    padding-left:40px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    font-size:14px;
+    background-color:white;
+    height:100%;
+    border-radius: 0 12px 12px 0;
+}
+
+.text p {
+
+    font-size:1.5rem;
+    letter-spacing:5px;
+}
+
+p, .ad-text, .price, .addcart {
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight:500;
+    font-size:1em;
+    color:hsl(228, 12%, 48%);
+}
+
+.title {
+    font-family: 'Fraunces', serif;
+    font-weight:700;
+    font-size:3em;
+    color:hsl(212, 21%, 14%);
+}
+
+p.title {
+    font-size:1em;
+}
+
+.ad-text {
+    line-height: 1.9em;
+    padding-right:50px;
+}
+
+
+.price {
+    font-size:1.9em;
+    font-weight:700;
+    color:hsl(158, 36%, 37%);
+    display:flex;
+    gap:25px;
+
+}
+
+.strikethrough {
+    text-decoration:line-through;
+    font-size:14px;
+    font-weight:500;
+    color:hsl(228, 12%, 48%);
+    display:flex;
+    align-items:center;
+}
+
+
+.add {
+    background-color:hsl(158, 36%, 37%);
+    width:95%;
+    height:70px;
+    border-radius:8px;
+    color:white;
+    font-weight:700;
+}
